@@ -15,3 +15,5 @@ steps:
       ]
 images:
   - 'us-central1-docker.pkg.dev/deploymentagent/my-docker-repo/sample-fastapi-server:latest'
+options:
+  logging: CLOUD_LOGGING_ONLY
